@@ -12,7 +12,6 @@ namespace vjezba_5._2._7
         {
             Console.Write("Unesite cijeli broj: ");
             int broj = int.Parse(Console.ReadLine());
-            int broj;
 
             try
             {

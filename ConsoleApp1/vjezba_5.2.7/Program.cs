@@ -12,14 +12,22 @@ namespace vjezba_5._2._7
         {
             Console.Write("Unesite cijeli broj: ");
             int broj = int.Parse(Console.ReadLine());
+            int broj;
 
-            if (broj % 4 == 0 && broj >= 100)
+            try
             {
-                Console.WriteLine("Broj je dobar!");
+                if (broj % 4 == 0 && broj >= 100)
+                {
+                    Console.WriteLine("Broj je dobar!");
+                }
+                else
+                {
+                    Console.WriteLine("Broj nije dobar");
+                }
             }
-            else
+            catch (Exception e)
             {
-                Console.WriteLine("Broj nije dobar");
+                Console.WriteLine(e.ToString());
             }
             Console.ReadKey();
         }

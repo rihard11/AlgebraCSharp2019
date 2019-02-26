@@ -10,6 +10,18 @@ namespace petlja_primjeri_while
     {
         static void Main(string[] args)
         {
+            string ime = "";
+            while (ime != "kraj")
+            {
+                Console.WriteLine("Unesi ime");
+                ime = Console.ReadLine();
+
+                if (ime != "kraj")
+                {
+                    Console.WriteLine("Vaše ime je {0}", ime);
+                }
+            }
+            Console.ReadKey();
         }
     }
 }

@@ -75,6 +75,14 @@ namespace Petlje_primjeri
                 Console.WriteLine();
             }
 
+            //Sume brojeva 
+            Console.WriteLine("\n Suma brojeva");
+            int suma = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write("{0} ", suma += i);
+            }
+
             Console.ReadKey();
         }
     }

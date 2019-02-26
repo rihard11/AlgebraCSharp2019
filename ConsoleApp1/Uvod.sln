@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primjer_5.2.4.3_seminar", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primjer_5.2.5_paran_neparan", "primjer_5.2.5_paran_neparan\primjer_5.2.5_paran_neparan.csproj", "{C6509853-8108-4A81-99FA-048DC8C2C04B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vjezba_5.2.3_veliki_broj", "vjezba_5.2.3_veliki_broj\vjezba_5.2.3_veliki_broj.csproj", "{AE867802-C35B-4436-8B69-02520E020A4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{C6509853-8108-4A81-99FA-048DC8C2C04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6509853-8108-4A81-99FA-048DC8C2C04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6509853-8108-4A81-99FA-048DC8C2C04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE867802-C35B-4436-8B69-02520E020A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE867802-C35B-4436-8B69-02520E020A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE867802-C35B-4436-8B69-02520E020A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE867802-C35B-4436-8B69-02520E020A4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{00EE16C2-06FE-47EF-A9A4-9D75960A3839} = {19D29F78-F7F0-4D00-8791-9EDF91AE03A6}
 		{E17D486A-E3D2-423D-B5C6-E040B7163405} = {19D29F78-F7F0-4D00-8791-9EDF91AE03A6}
 		{C6509853-8108-4A81-99FA-048DC8C2C04B} = {19D29F78-F7F0-4D00-8791-9EDF91AE03A6}
+		{AE867802-C35B-4436-8B69-02520E020A4A} = {19D29F78-F7F0-4D00-8791-9EDF91AE03A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

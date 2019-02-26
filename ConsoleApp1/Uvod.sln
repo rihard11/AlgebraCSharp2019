@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vjezba_5.2.5_interval", "vj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vjezba_5.2.6", "vjezba_5.2.6\vjezba_5.2.6.csproj", "{90D1AC85-EA89-4069-959A-03C6EE41BDCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vjezba_5.2.7", "vjezba_5.2.7\vjezba_5.2.7.csproj", "{8F89DE3C-A368-43CC-90C9-6707063523F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{90D1AC85-EA89-4069-959A-03C6EE41BDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90D1AC85-EA89-4069-959A-03C6EE41BDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90D1AC85-EA89-4069-959A-03C6EE41BDCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F89DE3C-A368-43CC-90C9-6707063523F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F89DE3C-A368-43CC-90C9-6707063523F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F89DE3C-A368-43CC-90C9-6707063523F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F89DE3C-A368-43CC-90C9-6707063523F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +136,7 @@ Global
 		{9486D837-CF93-4FC9-A126-AD95AFBFAA53} = {19D29F78-F7F0-4D00-8791-9EDF91AE03A6}
 		{5B3C0B8D-AAB7-4295-91A3-C2BA84A4BD35} = {19D29F78-F7F0-4D00-8791-9EDF91AE03A6}
 		{90D1AC85-EA89-4069-959A-03C6EE41BDCF} = {19D29F78-F7F0-4D00-8791-9EDF91AE03A6}
+		{8F89DE3C-A368-43CC-90C9-6707063523F0} = {19D29F78-F7F0-4D00-8791-9EDF91AE03A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

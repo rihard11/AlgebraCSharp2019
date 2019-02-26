@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primjer_5.2.4.2", "primjer_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primjer_5.2.4.3_seminar", "primjer_5.2.4.3_seminar\primjer_5.2.4.3_seminar.csproj", "{E17D486A-E3D2-423D-B5C6-E040B7163405}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primjer_5.2.5_paran_neparan", "primjer_5.2.5_paran_neparan\primjer_5.2.5_paran_neparan.csproj", "{C6509853-8108-4A81-99FA-048DC8C2C04B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{E17D486A-E3D2-423D-B5C6-E040B7163405}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E17D486A-E3D2-423D-B5C6-E040B7163405}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E17D486A-E3D2-423D-B5C6-E040B7163405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6509853-8108-4A81-99FA-048DC8C2C04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6509853-8108-4A81-99FA-048DC8C2C04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6509853-8108-4A81-99FA-048DC8C2C04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6509853-8108-4A81-99FA-048DC8C2C04B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +101,7 @@ Global
 		{F452E0A6-FCB3-4519-9F1B-F4E60F7081EB} = {19D29F78-F7F0-4D00-8791-9EDF91AE03A6}
 		{00EE16C2-06FE-47EF-A9A4-9D75960A3839} = {19D29F78-F7F0-4D00-8791-9EDF91AE03A6}
 		{E17D486A-E3D2-423D-B5C6-E040B7163405} = {19D29F78-F7F0-4D00-8791-9EDF91AE03A6}
+		{C6509853-8108-4A81-99FA-048DC8C2C04B} = {19D29F78-F7F0-4D00-8791-9EDF91AE03A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

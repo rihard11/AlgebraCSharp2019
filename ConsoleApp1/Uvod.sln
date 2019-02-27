@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3.7_ispis", "5.3.7_ispis\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3.9_djelitelj", "5.3.9_djelitelj\5.3.9_djelitelj.csproj", "{EC84463D-13A9-4E4D-953B-52B1B473B466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3.11_savrseni_brojevi", "5.3.11_savrseni_brojevi\5.3.11_savrseni_brojevi.csproj", "{A0E0EE1D-BD10-407D-BFDA-AFAF65FF65C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -187,6 +189,10 @@ Global
 		{EC84463D-13A9-4E4D-953B-52B1B473B466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC84463D-13A9-4E4D-953B-52B1B473B466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC84463D-13A9-4E4D-953B-52B1B473B466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E0EE1D-BD10-407D-BFDA-AFAF65FF65C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E0EE1D-BD10-407D-BFDA-AFAF65FF65C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E0EE1D-BD10-407D-BFDA-AFAF65FF65C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E0EE1D-BD10-407D-BFDA-AFAF65FF65C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -218,6 +224,7 @@ Global
 		{D188046D-8E9A-4E6A-8028-ED71F761C6DA} = {243FBF5B-4775-4EA8-816E-501BCF809E5D}
 		{D71E50AF-404F-4EB1-A02C-E942C1968A88} = {243FBF5B-4775-4EA8-816E-501BCF809E5D}
 		{EC84463D-13A9-4E4D-953B-52B1B473B466} = {243FBF5B-4775-4EA8-816E-501BCF809E5D}
+		{A0E0EE1D-BD10-407D-BFDA-AFAF65FF65C2} = {243FBF5B-4775-4EA8-816E-501BCF809E5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

@@ -10,25 +10,25 @@ namespace _5._3._13_min_max
     {
         static void Main(string[] args)
         {
-            int min = int.MinValue;
-            int max = int.MaxValue;
-            int b;
+            int min = int.MaxValue;
+            int max = int.MinValue;
+            int broj;
 
-            for (int i = 0; i <= 10; i++)
+            for (int i = 1; i <= 10; i++)
             {
-                Console.WriteLine("Unesite {0}. prirodni broj", i);
-                b = int.Parse(Console.ReadLine());
+                Console.Write("Unesite {0}. prirodni broj: ", i);
+                broj = int.Parse(Console.ReadLine());
 
-                if (b < min)
+                if (broj < min)
                 {
-                    min = b;
+                    min = broj;
                 }
-                if (b > max)
+                if (broj > max)
                 {
-                    max = b;
+                    max = broj;
                 }
             }
-            Console.WriteLine("Najmanji: {0}\n Najveći: {1}", min, max);
+            Console.WriteLine("Najmanji = {0}\nNajveći = {1}", min, max);
             Console.ReadKey();
         }
     }

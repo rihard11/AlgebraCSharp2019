@@ -32,7 +32,7 @@ namespace _5._3._4_faktorijel
                 }
                 if (a >= 20)
                 {
-                    throw new Exception("Broj je prevelik, rezultat je veći ok dimenzije 'int' 2.147.483.647");
+                    throw new VeciOdDvajstException("Broj je prevelik, rezultat je veći ok dimenzije 'int' 2.147.483.647");
                 }
 
                 int fact = 1;
@@ -55,43 +55,44 @@ namespace _5._3._4_faktorijel
             {
                 Console.WriteLine(ex.ToString());
             }
-
-
-            Console.ReadKey();
-            }
-        }
-        public class NegativeNumberException : Exception
-        {
-            public NegativeNumberException()
+            finally
             {
-            }
-
-            public NegativeNumberException(string message)
-            : base(message)
-            {
-            Console.WriteLine("Dodatno custom pojašnjenje klase NegativNumberException");
-            }
-
-            public NegativeNumberException(string message, Exception inner)
-            : base(message, inner)
-            {
-            }
-        }
-        public class VeciOdDvajstException : Exception
-        {
-            public VeciOdDvajstException()
-            {
-            }
-
-            public VeciOdDvajstException(string message)
-            : base(message)
-            {
-            }
-
-            public VeciOdDvajstException(string message, Exception inner)
-            : base(message, inner)
-            {
+                Console.ReadKey();
             }
         }
     }
+    public class NegativeNumberException : Exception
+    {
+        public NegativeNumberException()
+        {
+        }
+
+        public NegativeNumberException(string message)
+        : base(message)
+        {
+            Console.WriteLine("Dodatno custom pojašnjenje klase NegativNumberException");
+        }
+
+        public NegativeNumberException(string message, Exception inner)
+        : base(message, inner)
+        {
+        }
+    }
+    public class VeciOdDvajstException : Exception
+    {
+        public VeciOdDvajstException()
+        {
+        }
+
+        public VeciOdDvajstException(string message)
+        : base(message)
+        {
+        }
+
+        public VeciOdDvajstException(string message, Exception inner)
+        : base(message, inner)
+        {
+        }
+    }
+}
 

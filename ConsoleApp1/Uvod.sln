@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadaca_5.3.16_potencije_1",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadaca_5.3.18_unos_ocjena", "Zadaca_5.3.18_unos_ocjena\Zadaca_5.3.18_unos_ocjena.csproj", "{DF0906F2-98BE-4067-89E2-7B3EB14CEB70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadaca_5.3.20_par_nepar", "Zadaca_5.3.20_par_nepar\Zadaca_5.3.20_par_nepar.csproj", "{58958887-71DB-4B60-ABAC-C65EBE0AC949}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -259,6 +261,10 @@ Global
 		{DF0906F2-98BE-4067-89E2-7B3EB14CEB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF0906F2-98BE-4067-89E2-7B3EB14CEB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF0906F2-98BE-4067-89E2-7B3EB14CEB70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58958887-71DB-4B60-ABAC-C65EBE0AC949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58958887-71DB-4B60-ABAC-C65EBE0AC949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58958887-71DB-4B60-ABAC-C65EBE0AC949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58958887-71DB-4B60-ABAC-C65EBE0AC949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -302,6 +308,7 @@ Global
 		{C32FC15E-F295-4093-8407-582A0B5E4015} = {94A2D135-A74E-4887-97DB-D490099D2F8F}
 		{9FC2E7C3-6813-4B74-85FC-F5B5ECFF002E} = {94A2D135-A74E-4887-97DB-D490099D2F8F}
 		{DF0906F2-98BE-4067-89E2-7B3EB14CEB70} = {94A2D135-A74E-4887-97DB-D490099D2F8F}
+		{58958887-71DB-4B60-ABAC-C65EBE0AC949} = {94A2D135-A74E-4887-97DB-D490099D2F8F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

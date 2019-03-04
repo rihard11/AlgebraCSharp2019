@@ -21,12 +21,15 @@ namespace _6._2._1._1_arraylist
                 arr.Add(broj);
             }
 
+            // arr.Add(3.14);
+            
+            // Ispis
             for (int i = 0; i < arr.Count; i++)
             {
                 Console.WriteLine(arr[i]);
             }
 
-            foreach (var brojcic in arr)
+            foreach (int brojcic in arr)
             {
                 Console.Write(" " + brojcic);
             }

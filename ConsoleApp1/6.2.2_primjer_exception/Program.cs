@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _6._2._1._1_arraylist
+namespace _6._2._2_primjer_exception
 {
     class Program
     {
@@ -15,7 +15,12 @@ namespace _6._2._1._1_arraylist
             ArrayList arr = new ArrayList();
             Console.WriteLine("Unesi broj, za kraj unesi 0");
 
-
+           
+            arr.Add(3);
+            arr.Add(6);
+            arr.Add(9);
+            arr.Add("jedanaest");
+            arr.Add(13);
 
             // arr.Add(3.14);
 

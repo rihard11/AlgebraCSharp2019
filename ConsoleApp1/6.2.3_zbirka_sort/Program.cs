@@ -22,6 +22,7 @@ namespace _6._2._3_zbirka_sort
             }
             listaBrojeva.Sort();
 
+            Console.WriteLine("Ispis:");
             foreach (int item in listaBrojeva)
             {
                 Console.Write(item + " ");

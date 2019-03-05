@@ -34,7 +34,7 @@ namespace _6._23_generics
 
             foreach (Osoba os in listaOsoba)
             {
-                Console.WriteLine("Moje ime je" + os.ime);
+                Console.WriteLine("Moje ime je " + os.ime);
             }
 
             Console.ReadKey();

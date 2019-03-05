@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.23_generics", "6.23_gener
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.2.2_zbirka_generics_par_nepar", "6.2.2_zbirka_generics_par_nepar\6.2.2_zbirka_generics_par_nepar.csproj", "{9349076E-FC38-4A4B-A517-1C70D51CBAAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.2.3_zbirka_sort", "6.2.3_zbirka_sort\6.2.3_zbirka_sort.csproj", "{CD9AC2AF-4E68-4AEC-B895-2C8AC1A9381F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +311,10 @@ Global
 		{9349076E-FC38-4A4B-A517-1C70D51CBAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9349076E-FC38-4A4B-A517-1C70D51CBAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9349076E-FC38-4A4B-A517-1C70D51CBAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD9AC2AF-4E68-4AEC-B895-2C8AC1A9381F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD9AC2AF-4E68-4AEC-B895-2C8AC1A9381F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD9AC2AF-4E68-4AEC-B895-2C8AC1A9381F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD9AC2AF-4E68-4AEC-B895-2C8AC1A9381F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -360,6 +366,7 @@ Global
 		{59B58330-431B-4938-88E2-4B7C53D64469} = {94EEA81A-78E5-4201-BCE7-B5F5918CF249}
 		{039F5E92-9864-42B5-BE7A-36673A0786D6} = {94EEA81A-78E5-4201-BCE7-B5F5918CF249}
 		{9349076E-FC38-4A4B-A517-1C70D51CBAAB} = {94EEA81A-78E5-4201-BCE7-B5F5918CF249}
+		{CD9AC2AF-4E68-4AEC-B895-2C8AC1A9381F} = {94EEA81A-78E5-4201-BCE7-B5F5918CF249}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

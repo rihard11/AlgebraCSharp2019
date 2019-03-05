@@ -21,7 +21,7 @@ namespace _6._1._1_primjer
 
             try
             {
-                niz[3] = 99;
+                //niz[3] = 99;
                 for (int i = 0; i < niz.Length; i++)
                 {
                     if (niz[i] == null)

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.6_prost_broj", "7.2.6_p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.7_prost_broj_ponovno", "7.2.7_prost_broj_ponovno\7.2.7_prost_broj_ponovno.csproj", "{46F939B0-B210-48A9-8193-69ABDAB81C6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.8_faktorijel", "7.2.8_faktorijel\7.2.8_faktorijel.csproj", "{F174CA01-75BD-456D-8545-7380A7973CD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{46F939B0-B210-48A9-8193-69ABDAB81C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46F939B0-B210-48A9-8193-69ABDAB81C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46F939B0-B210-48A9-8193-69ABDAB81C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F174CA01-75BD-456D-8545-7380A7973CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F174CA01-75BD-456D-8545-7380A7973CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F174CA01-75BD-456D-8545-7380A7973CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F174CA01-75BD-456D-8545-7380A7973CD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

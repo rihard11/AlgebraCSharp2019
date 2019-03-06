@@ -13,28 +13,25 @@ namespace _6._2._2_primjer_exception
         {
             int broj = -1;
             ArrayList arr = new ArrayList();
-            Console.WriteLine("Unesi broj, za kraj unesi 0");
+            Console.WriteLine("Unesimo nekoliko razlicitih tipova");
 
-           
             arr.Add(3);
             arr.Add(6);
             arr.Add(9);
             arr.Add("jedanaest");
             arr.Add(13);
 
-            // arr.Add(3.14);
-
-            // Ispis
             for (int i = 0; i < arr.Count; i++)
             {
-                Console.WriteLine(arr[i]);
+                try
+                {
+                    Console.WriteLine(int.Parse(arr[i].ToString()));
+                }
+                catch (FormatException fex)
+                {
+                    Console.WriteLine("Varijabla nije u formatu koji se može pretvoriti u int" + fex.ToString());
+                }
             }
-
-            foreach (int brojcic in arr)
-            {
-                Console.Write(" " + brojcic);
-            }
-
             Console.ReadKey();
         }
     }

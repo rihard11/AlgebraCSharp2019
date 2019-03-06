@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.1_krug", "Zadaca_funkci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.2_jednakokracan_trokut", "7.2.2_jednakokracan_trokut\7.2.2_jednakokracan_trokut.csproj", "{A53B6DF2-78E5-48BB-BF15-9DCEFE812F0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.3_ks_u_kw", "7.2.3_ks_u_kw\7.2.3_ks_u_kw.csproj", "{7357512D-1807-4186-A116-374C042F0147}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A53B6DF2-78E5-48BB-BF15-9DCEFE812F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A53B6DF2-78E5-48BB-BF15-9DCEFE812F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A53B6DF2-78E5-48BB-BF15-9DCEFE812F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7357512D-1807-4186-A116-374C042F0147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7357512D-1807-4186-A116-374C042F0147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7357512D-1807-4186-A116-374C042F0147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7357512D-1807-4186-A116-374C042F0147}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

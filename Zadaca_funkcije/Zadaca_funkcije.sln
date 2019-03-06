@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.1_krug_obrnuto", "7.2.3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.3_ks_u_kw_obrnuto", "7.2.3_ks_u_kw_obrnuto\7.2.3_ks_u_kw_obrnuto.csproj", "{784A5055-3610-4FD7-ACC9-FC1A52C4ECD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.4_celzij_u_fahrenheit_obrnuto", "7.3.4_celzij_u_fahrenheit_obrnuto\7.2.4_celzij_u_fahrenheit_obrnuto.csproj", "{B118D447-0D68-4C00-AFBE-78D683FF7226}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{784A5055-3610-4FD7-ACC9-FC1A52C4ECD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{784A5055-3610-4FD7-ACC9-FC1A52C4ECD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{784A5055-3610-4FD7-ACC9-FC1A52C4ECD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B118D447-0D68-4C00-AFBE-78D683FF7226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B118D447-0D68-4C00-AFBE-78D683FF7226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B118D447-0D68-4C00-AFBE-78D683FF7226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B118D447-0D68-4C00-AFBE-78D683FF7226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

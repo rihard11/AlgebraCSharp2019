@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.10_ukupna_cijena", "7.2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.11_parni_neparni", "7.2.11_parni_neparni\7.2.11_parni_neparni.csproj", "{F692C98A-4245-442D-8BE7-AEC2733ED7E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.1_krug_obrnuto", "7.2.3_krug_obrnuto\7.2.1_krug_obrnuto.csproj", "{E7ADB270-4255-41D0-8DC4-3A0714D14B7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{F692C98A-4245-442D-8BE7-AEC2733ED7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F692C98A-4245-442D-8BE7-AEC2733ED7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F692C98A-4245-442D-8BE7-AEC2733ED7E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7ADB270-4255-41D0-8DC4-3A0714D14B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7ADB270-4255-41D0-8DC4-3A0714D14B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7ADB270-4255-41D0-8DC4-3A0714D14B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7ADB270-4255-41D0-8DC4-3A0714D14B7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

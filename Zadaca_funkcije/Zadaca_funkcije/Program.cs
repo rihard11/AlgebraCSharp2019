@@ -26,5 +26,7 @@ namespace Zadaca_funkcije
         {
             return rad * rad * Math.PI;
         }
+
+
     }
 }

@@ -19,7 +19,7 @@ namespace _7._2._4_celzij_u_fahrenheit
 
         static double CtoF(double celzijus)
         {
-            return celzijus * 9 / 5 + 32;
+            return (celzijus * 9 / 5) + 32;
         }
     }
 }

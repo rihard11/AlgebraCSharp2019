@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.1_krug", "Zadaca_funkcije\7.2.1_krug.csproj", "{B76860C9-33CF-417F-A94E-DCFE4F4934E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.2_jednakokracan_trokut", "7.2.2_jednakokracan_trokut\7.2.2_jednakokracan_trokut.csproj", "{A53B6DF2-78E5-48BB-BF15-9DCEFE812F0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B76860C9-33CF-417F-A94E-DCFE4F4934E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B76860C9-33CF-417F-A94E-DCFE4F4934E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B76860C9-33CF-417F-A94E-DCFE4F4934E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53B6DF2-78E5-48BB-BF15-9DCEFE812F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53B6DF2-78E5-48BB-BF15-9DCEFE812F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53B6DF2-78E5-48BB-BF15-9DCEFE812F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53B6DF2-78E5-48BB-BF15-9DCEFE812F0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

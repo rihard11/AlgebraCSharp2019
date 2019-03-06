@@ -125,6 +125,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2_potprogrami", "7.2_potp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.2_potprogram_pozdrav", "7.2.2_potprogram_pozdrav\7.2.2_potprogram_pozdrav.csproj", "{BACA9A96-0171-48DA-8400-BCC7D65C3345}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.1_Objekti", "8.1_Objekti", "{65F3C39B-07BF-4B8B-9E62-D0D8F0CEA546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.1.2_primjer", "8.1.2_primjer\8.1.2_primjer.csproj", "{C1E775F3-B94B-475E-BB85-2D77AFED0902}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -347,6 +351,10 @@ Global
 		{BACA9A96-0171-48DA-8400-BCC7D65C3345}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BACA9A96-0171-48DA-8400-BCC7D65C3345}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BACA9A96-0171-48DA-8400-BCC7D65C3345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E775F3-B94B-475E-BB85-2D77AFED0902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E775F3-B94B-475E-BB85-2D77AFED0902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E775F3-B94B-475E-BB85-2D77AFED0902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E775F3-B94B-475E-BB85-2D77AFED0902}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -404,6 +412,7 @@ Global
 		{D7242AB6-907C-460F-BF54-DC48F212FCEA} = {94EEA81A-78E5-4201-BCE7-B5F5918CF249}
 		{CD3B0DC7-6569-4B85-9E1C-8253DDF70A3F} = {F077A9E8-C58D-42BC-B678-144D6D329EA8}
 		{BACA9A96-0171-48DA-8400-BCC7D65C3345} = {F077A9E8-C58D-42BC-B678-144D6D329EA8}
+		{C1E775F3-B94B-475E-BB85-2D77AFED0902} = {65F3C39B-07BF-4B8B-9E62-D0D8F0CEA546}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

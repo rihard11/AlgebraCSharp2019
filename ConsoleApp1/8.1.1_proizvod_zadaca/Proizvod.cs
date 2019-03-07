@@ -8,6 +8,10 @@
         public double porez = 0;
 
         // Metoda
+        public Proizvod (string naziv)
+        {
+            this.naziv = naziv;
+        }
         public double MPC()
         {
             return cijena + marza + porez;

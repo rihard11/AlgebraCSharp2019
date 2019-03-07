@@ -23,7 +23,7 @@ namespace _8._1._2_primjer
             // Oib mozemo postaviti
             n1.Oib = 123456789;
 
-            
+  
 
             // Ne dozvoljava citanje Oiba
             // Console.WriteLine("Oib je " + n1.Oib);

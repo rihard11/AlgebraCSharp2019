@@ -20,7 +20,6 @@
         /// Ovo dohvaća koeficijent za izračun plaća
         /// </summary>
         /// <returns></returns>
-
         public static float Koeficijent()
         {
             return 1.5f;

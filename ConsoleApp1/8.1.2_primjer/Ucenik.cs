@@ -4,12 +4,14 @@ namespace _8._1._2_primjer
 {
     internal class Ucenik
     {
-        public string ime = "";
+        private string ime = "";
         public DateTime datumNastanka;
         public string prezime = "";
         public int ocjenaIzMatematike = 0;
         public int ocjenaIzEngleskog = 0;
         public int ocjenaIzBiologije = 0;
+
+        public string Ime { get => ime; set => ime = value; }
 
         public Ucenik()
         {

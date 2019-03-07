@@ -23,6 +23,8 @@ namespace _8._1._2_primjer
             // Oib mozemo postaviti
             n1.Oib = 123456789;
 
+            
+
             // Ne dozvoljava citanje Oiba
             // Console.WriteLine("Oib je " + n1.Oib);
 
@@ -57,6 +59,16 @@ namespace _8._1._2_primjer
             ucenici.Add(uc2);
 
             foreach (var item in ucenici)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine("\nNastavnici:");
+
+            List<Nastavnik> nastavnici = new List<Nastavnik>();
+            nastavnici.Add(n1);
+
+            foreach (var item in nastavnici)
             {
                 Console.WriteLine(item);
             }

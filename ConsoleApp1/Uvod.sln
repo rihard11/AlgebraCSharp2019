@@ -131,6 +131,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.1.2_primjer", "8.1.2_prim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.1.1_proizvod_zadaca", "8.1.1_proizvod_zadaca\8.1.1_proizvod_zadaca.csproj", "{29D66207-AE4D-4E0E-9C04-390D67F715D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.1.2_automobil_zadaca", "8.1.2_automobil_zadaca\8.1.2_automobil_zadaca.csproj", "{BE6A46F5-8015-4459-9340-3389E137EC3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -361,6 +363,10 @@ Global
 		{29D66207-AE4D-4E0E-9C04-390D67F715D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29D66207-AE4D-4E0E-9C04-390D67F715D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29D66207-AE4D-4E0E-9C04-390D67F715D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6A46F5-8015-4459-9340-3389E137EC3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6A46F5-8015-4459-9340-3389E137EC3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6A46F5-8015-4459-9340-3389E137EC3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6A46F5-8015-4459-9340-3389E137EC3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -420,6 +426,7 @@ Global
 		{BACA9A96-0171-48DA-8400-BCC7D65C3345} = {F077A9E8-C58D-42BC-B678-144D6D329EA8}
 		{C1E775F3-B94B-475E-BB85-2D77AFED0902} = {65F3C39B-07BF-4B8B-9E62-D0D8F0CEA546}
 		{29D66207-AE4D-4E0E-9C04-390D67F715D9} = {65F3C39B-07BF-4B8B-9E62-D0D8F0CEA546}
+		{BE6A46F5-8015-4459-9340-3389E137EC3B} = {65F3C39B-07BF-4B8B-9E62-D0D8F0CEA546}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

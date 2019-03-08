@@ -110,11 +110,18 @@ namespace _8._1._3_zaposlenik_zadaca
             this.Prezime = prezime;
         }
 
-        public Zaposlenik(string ime, string prezime, string jmbg)
+        public Zaposlenik(string ime, string prezime, string jmbg) 
+            :this(ime, prezime)
         {
-            this.Ime = ime;
-            this.Prezime = prezime;
+            //this.Ime = ime;
+            //this.Prezime = prezime;
             this.JMBG = jmbg;
+        }
+
+        public Zaposlenik(string ime, string prezime, string jmbg, double brojbodova) 
+            : this(ime, prezime, jmbg)
+        {
+            this.BrojBodova = brojbodova;
         }
 
         #endregion

@@ -6,28 +6,28 @@ namespace _8._1._3_zaposlenik_zadaca
     {
         #region Svojstva
 
-        string ime;
+        private string ime;
         public string Ime
         {
             get => ime;
             set => ime = value;
         }
 
-        string prezime;
+        private string prezime;
         public string Prezime
         {
             get => prezime;
             set => prezime = value;
         }
 
-        string jmbg;
+        private string jmbg;
         public string JMBG
         {
             get => jmbg;
             set => jmbg = value;
         }
 
-        double brojBodova;
+        private double brojBodova;
         public double BrojBodova
         {
             get => brojBodova;
@@ -45,7 +45,7 @@ namespace _8._1._3_zaposlenik_zadaca
             }
         }
 
-        double vrijednostBoda;
+        private double vrijednostBoda;
         public double VrijednostBoda
         {
             get => vrijednostBoda;

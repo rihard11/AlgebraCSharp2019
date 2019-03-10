@@ -23,7 +23,7 @@ namespace _8._1._3_zaposlenik_zadaca
         {
 
             get { return oib; }
-            set { prezime = value; }
+            set { oib = value; }
         }
 
         private double brojBodova;

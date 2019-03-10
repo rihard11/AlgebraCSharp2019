@@ -139,6 +139,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.2.1_static_zadaca", "8.2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.2.2_static_instanca_zadaca", "8.2.2_static_instanca_zadaca\8.2.2_static_instanca_zadaca.csproj", "{17E4E4D9-6852-4B29-9E39-3DD33F892EA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primjer_8.2.2.1_ref", "primjer_8.2.2.1_ref\primjer_8.2.2.1_ref.csproj", "{8F0D603F-D717-44F1-B47B-48C14B9C5D15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -385,6 +387,10 @@ Global
 		{17E4E4D9-6852-4B29-9E39-3DD33F892EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17E4E4D9-6852-4B29-9E39-3DD33F892EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17E4E4D9-6852-4B29-9E39-3DD33F892EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0D603F-D717-44F1-B47B-48C14B9C5D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0D603F-D717-44F1-B47B-48C14B9C5D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0D603F-D717-44F1-B47B-48C14B9C5D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0D603F-D717-44F1-B47B-48C14B9C5D15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -448,6 +454,7 @@ Global
 		{C8952931-682C-4EB2-9E46-DEE665AD4717} = {65F3C39B-07BF-4B8B-9E62-D0D8F0CEA546}
 		{D2B9B0D7-D53F-4AE1-B54B-B9293E7B00B5} = {65F3C39B-07BF-4B8B-9E62-D0D8F0CEA546}
 		{17E4E4D9-6852-4B29-9E39-3DD33F892EA0} = {65F3C39B-07BF-4B8B-9E62-D0D8F0CEA546}
+		{8F0D603F-D717-44F1-B47B-48C14B9C5D15} = {65F3C39B-07BF-4B8B-9E62-D0D8F0CEA546}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

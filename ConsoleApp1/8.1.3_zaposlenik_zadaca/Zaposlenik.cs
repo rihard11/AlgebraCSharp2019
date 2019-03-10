@@ -9,47 +9,48 @@ namespace _8._1._3_zaposlenik_zadaca
         private string ime;
         public string Ime
         {
-            get => ime;
-            set => ime = value;
+            get { return ime; }
+            set { ime = value; }
         }
-
         private string prezime;
         public string Prezime
         {
-            get => prezime;
-            set => prezime = value;
+            get { return prezime; }
+            set { prezime = value; }
         }
-
-        private string jmbg;
-        public string JMBG
+        private string oib;
+        public string OIB
         {
-            get => jmbg;
-            set => jmbg = value;
+
+            get { return oib; }
+            set { prezime = value; }
         }
 
         private double brojBodova;
         public double BrojBodova
         {
-            get => brojBodova;
+            get { return brojBodova; }
             set
             {
                 if (value > 0)
                 {
                     brojBodova = value;
                 }
+
                 else
                 {
-                    Exception ex = new Exception("Možete unijeti samo pozitivnu brojčanu vrijednost!");
+                    Exception ex = new Exception("Mozete uneti samo pozitivan broj");
                     throw ex;
                 }
             }
         }
 
-        private double vrijednostBoda;
+        double vrijednostBoda;
         public double VrijednostBoda
         {
-            get => vrijednostBoda;
+            get { return vrijednostBoda; }
             set
+
             {
                 if (value > 0)
                 {
@@ -57,13 +58,13 @@ namespace _8._1._3_zaposlenik_zadaca
                 }
                 else
                 {
-                    Exception ex = new Exception("Možete unijeti samo pozitivnu brojčanu vrijednost!");
+                    Exception ex = new Exception("Mozete uneti samo pozitivan broj");
                     throw ex;
                 }
             }
         }
 
-        //READ ONLY
+        // ReadOnly svojstvo
         public double Porez
         {
             get
@@ -73,6 +74,7 @@ namespace _8._1._3_zaposlenik_zadaca
                 {
                     return neto * 0.06;
                 }
+
                 else if (neto < 6000)
                 {
                     return neto * 0.12;
@@ -83,16 +85,16 @@ namespace _8._1._3_zaposlenik_zadaca
                 }
             }
         }
+
+
+
         #endregion
 
-
-        #region Metode
-
+        #region  metode
         public double NetoIzracunPlace()
         {
             return this.BrojBodova * this.VrijednostBoda;
         }
-
         public double BrutoIzracunPlace()
         {
             return this.NetoIzracunPlace() + this.Porez;
@@ -106,24 +108,23 @@ namespace _8._1._3_zaposlenik_zadaca
 
         public Zaposlenik(string ime, string prezime)
         {
+
             this.Ime = ime;
             this.Prezime = prezime;
         }
 
-        public Zaposlenik(string ime, string prezime, string jmbg) 
-            :this(ime, prezime)
+        public Zaposlenik(string ime, string prezime, string oib)
+            : this(ime, prezime)
         {
-            //this.Ime = ime;
-            //this.Prezime = prezime;
-            this.JMBG = jmbg;
+            // this.Ime = ime;
+            // this.Prezime = prezime;
+            this.OIB = oib;
         }
-
-        public Zaposlenik(string ime, string prezime, string jmbg, double brojbodova) 
-            : this(ime, prezime, jmbg)
+        public Zaposlenik(string ime, string prezime, string oib, double brojbodova)
+            : this(ime, prezime, oib)
         {
             this.BrojBodova = brojbodova;
         }
-
         #endregion
     }
 }

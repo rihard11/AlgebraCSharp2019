@@ -30,7 +30,7 @@ namespace Zadaca_za_11._03._19
             return "Pozdrav "
                 + this.Ime + " "
                 + this.Prezime + ", stanje tvog racuna je "
-                + this.Racun + " kuna.";
+                + this.Racun + " kuna.\n";
         }
 
 

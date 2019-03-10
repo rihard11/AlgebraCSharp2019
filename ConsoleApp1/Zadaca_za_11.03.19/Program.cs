@@ -20,6 +20,7 @@ namespace Zadaca_za_11._03._19
 
             Console.WriteLine("Unesite skolarinu: ");
             int skoloarina = int.Parse(Console.ReadLine());
+            Console.WriteLine();
             listaUcenika.ForEach(Ucenik => Ucenik.Racun -= skoloarina);
             foreach (var item in listaUcenika)
             {
@@ -33,7 +34,7 @@ namespace Zadaca_za_11._03._19
         private static void IspisUcenika(Ucenik ucenik)
         {
             Console.WriteLine("Ucenik: " + ucenik.Ime + " " + ucenik.Prezime);
-            Console.WriteLine("Stanje na racunu: " + ucenik.Racun);
+            Console.WriteLine("Stanje na racunu: " + ucenik.Racun + "\n");
         }
     }
 }

@@ -1,14 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using _8._1._2_primjer;
 
-namespace primjer_8._3._1_nasljedjivanje
+
+namespace _8._3._1_nasljedjivanje
 {
-    public DateTime datumNastanka;
-    class Osoba
+    public abstract class Osoba
     {
-        this.datumNastanka = DateTime.Now;
+        public DateTime datumNastanka;
+        public string prezime = "";
+        private string ime = "";
+
+        public string Ime
+        {
+            get => ime;
+            set => ime = ToUpper.FirstCharToUpper(value);
+        }
+
+        public Osoba()
+        {
+            this.datumNastanka = DateTime.Now;
+            Console.WriteLine("Pozvana metoda Osoba:Osoba()");
+        }
+
+        protected Osoba(string v1, string v2)
+        {
+            this.ime = v1;
+            this.prezime = v2;
+        }
     }
 }

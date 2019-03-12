@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace _8._1._2_automobil_zadaca
 {
-    class Automobil
+    public class Automobil
     {
-        public string markaAutomobila = "";
+        public string MarkaAutomobila = "";
         public double KS = 0;
         public double osnovnaCijena = 0;
 

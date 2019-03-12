@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace _8._1._2_primjer
 {
     internal class Ucenik

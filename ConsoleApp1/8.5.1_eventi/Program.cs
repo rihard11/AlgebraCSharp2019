@@ -21,7 +21,7 @@ namespace _8._5._1_eventi
 
         static void osoba_NaPromjenuImena (object sender, EventArgs e)
         {
-            Console.WriteLine("Osoba je promjenila podatke: {0})", ((Osoba)sender).Ime);
+            Console.WriteLine("Osoba je promjenila podatke: {0}", ((Osoba)sender).Ime);
         }
     }
 }

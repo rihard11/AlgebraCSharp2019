@@ -153,6 +153,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primjer_BusinessLayer", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operateri", "Operateri\Operateri.csproj", "{FA806FE1-B786-4267-BE56-71E697035328}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.5.1_eventi", "8.5.1_eventi\8.5.1_eventi.csproj", "{D56571FC-70AB-4C24-A000-8F115D1DDED0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -427,6 +429,10 @@ Global
 		{FA806FE1-B786-4267-BE56-71E697035328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA806FE1-B786-4267-BE56-71E697035328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA806FE1-B786-4267-BE56-71E697035328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56571FC-70AB-4C24-A000-8F115D1DDED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56571FC-70AB-4C24-A000-8F115D1DDED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56571FC-70AB-4C24-A000-8F115D1DDED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56571FC-70AB-4C24-A000-8F115D1DDED0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -497,6 +503,7 @@ Global
 		{55ACAD22-3888-4D5F-B9C3-C140A703BC1E} = {65F3C39B-07BF-4B8B-9E62-D0D8F0CEA546}
 		{563D235D-8F4E-438F-A779-9ADAE0285D2C} = {65F3C39B-07BF-4B8B-9E62-D0D8F0CEA546}
 		{FA806FE1-B786-4267-BE56-71E697035328} = {65F3C39B-07BF-4B8B-9E62-D0D8F0CEA546}
+		{D56571FC-70AB-4C24-A000-8F115D1DDED0} = {65F3C39B-07BF-4B8B-9E62-D0D8F0CEA546}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EC4551-BDDA-44DC-B093-1C3F4BA400C8}

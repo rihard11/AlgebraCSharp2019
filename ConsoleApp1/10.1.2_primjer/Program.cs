@@ -42,7 +42,17 @@ namespace _10._1._2_primjer
             string[] sFiles = Directory.GetFiles(@"C:\");
             foreach (var sFile in sFiles)
             {
+                Console.WriteLine("\nsFile:");
+                Console.WriteLine(sFile);
+
+                Console.WriteLine("\nsPath.GetFileName:");
                 Console.WriteLine(Path.GetFileName(sFile));
+
+                Console.WriteLine("\nsPath.GetExtension:");
+                Console.WriteLine(Path.GetExtension(sFile));
+
+                Console.WriteLine("\nsPath.GetFCreationTime:");
+                Console.WriteLine(File.GetCreationTime(sFile));
             }
             Console.ReadKey();
         }

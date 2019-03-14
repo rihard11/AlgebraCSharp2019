@@ -18,13 +18,17 @@ namespace _10._1._2_primjer
             // Path clasa
             string mojaPutanja = Path.Combine(Environment.CurrentDirectory, "Proba.txt");
 
+            // File klasa
             Console.WriteLine(File.Exists(mojaPutanja));
 
+            // Diractory klasa
             if (!Directory.Exists("Proba"))
             {
+                // Ako nepostoji folder Proba, kreiraj ga
                 Directory.CreateDirectory("Proba");
             }
 
+            // Ispisujem sve foldere na C-u
             Console.WriteLine("Direktoriji na C: ");
             string[] sDirs = Directory.GetDirectories(@"C:\");
             foreach (var sDir in sDirs)
@@ -32,6 +36,8 @@ namespace _10._1._2_primjer
                 Console.WriteLine(sDir);
             }
 
+
+            // Ispisujem sve fileove na C-u
             Console.WriteLine("Datoteke na C: ");
             string[] sFiles = Directory.GetFiles(@"C:\");
             foreach (var sFile in sFiles)

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{55A60C92-A8CA-4523-9A7E-4FBFD7602B6A}</ProjectGuid>
+    <ProjectGuid>{BE850CA5-5DFB-4096-B2BB-9C7DE0988BB2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_10._1._1_datoteke</RootNamespace>
-    <AssemblyName>10.1.1_datoteke</AssemblyName>
+    <RootNamespace>_11._2_linq</RootNamespace>
+    <AssemblyName>11.2_linq</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

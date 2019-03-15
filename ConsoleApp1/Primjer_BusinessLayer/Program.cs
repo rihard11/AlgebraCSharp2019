@@ -76,6 +76,7 @@ namespace Primjer_BusinessLayer
             {
                 Console.WriteLine(item);
             }
+            Console.ReadKey();
         }
     }
 }

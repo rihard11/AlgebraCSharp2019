@@ -1,5 +1,5 @@
 ﻿using System;
-using _8._1._2_primjer;
+//using _8._1._2_primjer;
 
 
 //namespace _8._3._1_nasljedjivanje

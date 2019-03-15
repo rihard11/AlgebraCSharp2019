@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using _8._1._2_automobil_zadaca;
+using _8._1._2_primjer;
 
 namespace _8._3._1_nasljedjivanje
 {

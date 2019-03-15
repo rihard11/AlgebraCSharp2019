@@ -13,7 +13,7 @@ namespace _8._1._2_automobil_zadaca
             Automobil auto1 = new Automobil();
 
             Console.Write("Unesite marku automobila: ");
-            auto1.markaAutomobila = Console.ReadLine();
+            auto1.MarkaAutomobila = Console.ReadLine();
 
             Console.Write("Unesite KS: ");
             auto1.KS = double.Parse(Console.ReadLine());

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B150A443-6767-4365-876F-2B52DCA3D3CA}</ProjectGuid>
+    <ProjectGuid>{4741A066-E026-4045-BE6B-B8A7D09EC09D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Zadaca_11._1._1._imena</RootNamespace>
-    <AssemblyName>Zadaca_11.1.1._imena</AssemblyName>
+    <RootNamespace>Zadaca_11._1._2._prviDir</RootNamespace>
+    <AssemblyName>Zadaca_11.1.2._prviDir</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

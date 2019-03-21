@@ -46,7 +46,7 @@ GO
 -- Zadatak 3.8
 SELECT * 
  FROM dbo.stud
- WHERE imeStud LIKE '[a e i o u]%[a e i o u]'
+ WHERE RTRIM(imeStud) LIKE '[a e i o u]%[a e i o u]'
  GO
 
 
